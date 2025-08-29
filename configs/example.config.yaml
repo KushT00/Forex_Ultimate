@@ -1,0 +1,24 @@
+env: dev
+timezone: "Asia/Kolkata"
+data:
+  provider: "mt5"     # or "csv", "mock"
+  symbols: ["EURUSD", "XAUUSD"]
+  timeframe: "M15"    # e.g. M1, M5, M15, H1, D1
+  store:
+    ohlc_path: "./data/ohlc"
+    ticks_path: "./data/ticks"
+    news_path: "./data/news"
+simulation:
+  slippage_pips: 0.2
+  spread_pips: 0.5
+  default_size: 1.0
+risk:
+  max_open_trades: 5
+  max_gross_exposure: 10.0  # lots (virtual)
+  stop_loss_atr_mult: 1.5
+  take_profit_rr: 2.0
+manager:
+  enable_news_agent: false
+api:
+  host: "127.0.0.1"
+  port: 8000

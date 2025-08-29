@@ -1,0 +1,13 @@
+pandas
+numpy
+pydantic>=2
+python-dotenv
+pyyaml
+fastapi
+uvicorn
+pandas_ta
+langchain
+langgraph
+rich
+apscheduler
+sqlite-utils
