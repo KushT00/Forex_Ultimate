@@ -2,39 +2,92 @@
 
 ## Overview
 
-This project is an **algo-trading system** designed for executing and managing multiple trading strategies (e.g., Supertrend, Straddle, etc.) across different timeframes. The system is modular, scalable, and built around three core components:
+This project is an **algorithmic trading framework** designed around modular **agents**. Each agent has a well-defined responsibility (strategy execution, signal logging, notification, supervision, etc.), enabling flexible scaling and maintainability.
 
-1. **Strategies** – individual trading logic modules.
-2. **Logging** – structured storage of trade signals and activity.
-3. **Notifier** – real-time notifications (via WhatsApp/Telegram using Twilio).
+The system can deploy multiple option-selling strategies simultaneously, monitor their outputs, log all signals, and optionally send real-time notifications (WhatsApp/Telegram via Twilio).
+
+## Core Components
+
+### 1. **Strategy Agents**
+
+* Each trading strategy is encapsulated in its own **agent**.
+* Example:
+  * `strategy_supertrend.py`
+  * `strategy_straddle.py`
+  * `strategy_customN.py`
+* Responsibilities:
+  * Fetch market data.
+  * Apply indicator logic.
+  * Generate trade signals (BUY/SELL, entry price, time).
+  * Pass signals to the **logging agent** and optionally trigger **notifier**.
+
+### 2. **Logging Agent**
+
+* Dedicated to recording all strategy outputs in a structured manner.
+* Logs are stored under the `logs/` folder with sub-folders by **timeframe** or **strategy** (configurable).
+* Example structure:
+
+```
+logs/
+  ├── strategy1.txt
+  ├── strategy2.txt
+  ├── TF_30min/
+  │     └── signals.txt
+```
+
+* Ensures every trade decision is auditable.
+* Acts as the central "source of truth" for signals.
+
+### 3. **Notification Agent**
+
+* Handles trade alerts via **WhatsApp or Telegram**.
+* Uses **Twilio API** for message delivery.
+* Can work in two modes:
+  1. **Direct trigger**: strategy agent calls `notifier.send(signal)` whenever a new signal is generated.
+  2. **Watcher mode**: runs in the background, watches `logs/` for new entries, and pushes notifications.
+* Parameters passed: `{symbol, entry_price, signal_type, timestamp}`.
+
+### 4. **Supervisor Agent**
+
+* (Optional, future-facing)
+* Oversees multiple running strategy agents.
+* Maintains a dashboard of active strategies, open signals, and system health.
+* Could later integrate **risk management rules** (e.g., "don't open more than 3 positions at once").
+
+### 5. **Configuration**
+
+* A `pyproject.toml` (or `config.yaml`) file defines:
+  * List of active strategies.
+  * Timeframes.
+  * Logging preferences (per-strategy / per-timeframe).
+  * Notification settings (WhatsApp, Telegram, none).
 
 ## Folder Structure
 
 ```
 project-root/
 │
-├── strategies/               # All trading strategies live here
-│   ├── supertrend.py
-│   ├── straddle.py
-│   └── ...
+├── agents/                   # All agents live here
+│   ├── strategy_agents/
+│   │   ├── strategy_supertrend.py
+│   │   ├── strategy_straddle.py
+│   │   └── ...
+│   ├── logging_agent.py
+│   ├── notification_agent.py
+│   └── supervisor_agent.py
 │
 ├── logs/                     # Signal logs (auto-created dynamically)
-│   ├── Supertrend/
-│   │   ├── 5min.txt
-│   │   ├── 15min.txt
-│   │   └── ...
-│   ├── Straddle/
-│   │   ├── 30min.txt
-│   │   └── ...
+│   ├── strategy1.txt
+│   ├── strategy2.txt
+│   ├── TF_30min/
+│   │   └── signals.txt
 │   └── ...
 │
-├── notifier/                 # Notification utilities
-│   └── notifier.py
+├── config/                   # Configuration files
+│   ├── config.yaml
+│   └── strategies_config.json
 │
-├── scheduler/                # Orchestration layer
-│   └── scheduler.py
-│
-├── utils/                    # Common helper functions (e.g., time, config mgmt)
+├── utils/                    # Common helper functions
 │   └── file_utils.py
 │
 ├── pyproject.toml            # Project dependencies & metadata
@@ -42,79 +95,25 @@ project-root/
 └── README.md                 # Project intro & usage guide
 ```
 
-## Core Components
+## Workflow
 
-### 1. **Strategies**
+1. **Strategy Agent runs** → fetches data, applies logic.
+2. If **signal is generated** →
+   * Sent to **Logging Agent** → appended to proper file in `logs/`.
+   * Sent to **Notification Agent** (if enabled) → user alert.
+3. **Supervisor Agent** (optional) monitors all activity and enforces higher-level rules.
 
-* Each strategy is implemented as a Python function inside `strategies/`.
-* Strategy functions take parameters such as:
-  * `symbol`
-  * `timeframe`
-  * `capital`
-* At the end of execution:
-  * A signal (if generated) is logged into the respective log file.
-  * The notifier function is called to push notifications.
+## Advantages of Agent-Based Design
 
-**Example:**
-
-```python
-def supertrend(symbol, timeframe, capital):
-    # trading logic...
-    if signal_generated:
-        log_signal("Supertrend", timeframe, signal_data)
-        send_notification(signal_data)
-```
-
-### 2. **Logging**
-
-* Signals are stored under the `logs/` folder.
-* Folder names correspond to strategy names.
-* Inside each strategy folder, signals are stored in `{timeframe}.txt`.
-
-**Example:**
-
-```
-logs/Supertrend/5min.txt
-logs/Supertrend/15min.txt
-logs/Straddle/30min.txt
-```
-
-* Log format is structured (e.g., JSON lines or CSV-style text):
-
-```
-2025-08-30 09:15:00 | SYMBOL: NIFTY | SIGNAL: CALL SHORT | ENTRY: 20050
-```
-
-### 3. **Notifier**
-
-* Located in `notifier/notifier.py`.
-* Provides a `send_notification(signal_data)` function.
-* Supports **WhatsApp/Telegram notifications** via Twilio.
-* Called at the end of each strategy function after a signal is generated.
-
-### 4. **Scheduler**
-
-* `scheduler/scheduler.py` is responsible for running strategies at fixed intervals.
-* Uses `APScheduler` or `cron` jobs to schedule execution.
-* Dynamically calls strategies with specified parameters.
-
-**Example:**
-
-```python
-schedule.every(5).minutes.do(supertrend, symbol="NIFTY", timeframe="5min", capital=100000)
-```
-
-## Execution Flow
-
-1. **Scheduler** triggers a strategy at the defined interval.
-2. **Strategy function** executes trading logic.
-3. If a signal is generated:
-   * **Log** is written under the respective `logs/strategy/timeframe.txt`.
-   * **Notifier** is triggered to send real-time alerts.
+* **Modularity** → easy to add/remove strategies.
+* **Scalability** → each agent can run independently.
+* **Flexibility** → notifications, logging, and supervision can evolve separately.
+* **Maintainability** → clear separation of responsibilities.
 
 ## Future Improvements
 
-* Add database (PostgreSQL / Supabase) instead of plain text logs for better querying.
-* Central monitoring dashboard for signals & performance.
-* Risk management module (stop-loss, portfolio allocation).
-* Analytics on strategy performance.
+* Add **Supervisor Agent** with real-time dashboard.
+* Integrate database (PostgreSQL / Supabase) for better signal querying.
+* Risk management module within Supervisor Agent.
+* Performance analytics and strategy comparison tools.
+* Multi-broker support through dedicated broker agents.
