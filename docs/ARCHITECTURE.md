@@ -4,7 +4,7 @@
 
 This project is an **algorithmic trading framework** designed around modular **agents**. Each agent has a well-defined responsibility (strategy execution, signal logging, notification, supervision, etc.), enabling flexible scaling and maintainability.
 
-The system can deploy multiple option-selling strategies simultaneously, monitor their outputs, log all signals, and optionally send real-time notifications (WhatsApp/Telegram via Twilio).
+The system can deploy multiple **FOREX PAIRS** strategies simultaneously, monitor their outputs, log all signals, and optionally send real-time notifications (WhatsApp/Telegram ).
 
 ## Core Components
 
