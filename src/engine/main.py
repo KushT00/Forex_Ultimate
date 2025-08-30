@@ -7,6 +7,7 @@ import threading
 from concurrent.futures import ThreadPoolExecutor
 import logging
 import json
+from logging.handlers import RotatingFileHandler
 
 # Add src to path for imports - more robust path handling
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -19,28 +20,68 @@ sys.path.insert(0, project_root)
 
 from strategies.strategy1 import moving_average_crossover_strategy
 from strategies.strategy2 import rsi_divergence_strategy
+from strategies.strategy4 import supertrend_rsi_strategy
 
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('trading_system.log'),
-        logging.StreamHandler()
-    ]
-)
-
-# Reduce noise from schedule library
-logging.getLogger('schedule').setLevel(logging.WARNING)
+def setup_logging():
+    """Setup logging with rotation to keep only last 100 entries"""
+    # Create logs directory if it doesn't exist
+    logs_dir = os.path.join(src_dir, 'logs')
+    os.makedirs(logs_dir, exist_ok=True)
+    
+    # Configure logging with rotation
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        handlers=[
+            RotatingFileHandler(
+                os.path.join(logs_dir, 'trading_system.log'), 
+                maxBytes=1024*1024,  # 1MB per file
+                backupCount=5,        # Keep 5 backup files
+                encoding='utf-8'
+            ),
+            logging.StreamHandler()
+        ]
+    )
+    
+    # Reduce noise from schedule library
+    logging.getLogger('schedule').setLevel(logging.WARNING)
+    
+    # Add custom log rotation to keep only last 100 entries
+    def rotate_logs():
+        log_file = os.path.join(logs_dir, 'trading_system.log')
+        if os.path.exists(log_file):
+            try:
+                with open(log_file, 'r', encoding='utf-8') as f:
+                    lines = f.readlines()
+                
+                # Keep only the last 100 log entries
+                if len(lines) > 100:
+                    with open(log_file, 'w', encoding='utf-8') as f:
+                        f.writelines(lines[-100:])
+                    logging.info(f"Log rotated: Kept last 100 entries, removed {len(lines) - 100} old entries")
+            except Exception as e:
+                logging.error(f"Log rotation failed: {str(e)}")
+    
+    # Rotate logs every hour
+    def schedule_log_rotation():
+        while True:
+            time.sleep(3600)  # Wait 1 hour
+            rotate_logs()
+    
+    # Start log rotation in background thread
+    rotation_thread = threading.Thread(target=schedule_log_rotation, daemon=True)
+    rotation_thread.start()
+    
+    return logs_dir
 
 class MultiTimeframeScheduler:
     """Multi-threaded scheduler for different timeframe strategies"""
     
-    def __init__(self):
+    def __init__(self, logs_dir: str):
         self.executor = ThreadPoolExecutor(max_workers=10)
         self.running = True
         self.strategies = {}
-        self.logs_dir = os.path.join(src_dir, 'logs')
+        self.logs_dir = logs_dir
         self.trade_log_file = os.path.join(self.logs_dir, 'trade_log.json')
         
         # Create logs directory if it doesn't exist
@@ -231,52 +272,49 @@ def initialize_mt5():
 
 def main():
     """Main function to run the multi-timeframe scheduler"""
+    # Setup logging with rotation
+    logs_dir = setup_logging()
+    
     # Initialize MT5
     if not initialize_mt5():
         logging.error("Failed to initialize MT5. Exiting...")
         return
     
     # Create scheduler instance
-    scheduler = MultiTimeframeScheduler()
+    scheduler = MultiTimeframeScheduler(logs_dir)
     
     # Add strategies with different timeframes
     # Strategy 1: Moving Average Crossover - 5 minutes
-    scheduler.add_strategy(
-        "MA_Crossover_5min",
-        moving_average_crossover_strategy,
-        ["XAUUSD", "EURUSD", "GBPUSD"],
-        5
-    )
+    # scheduler.add_strategy(
+    #     "MA_Crossover_5min",
+    #     moving_average_crossover_strategy,
+    #     ["XAUUSD", "EURUSD", "GBPUSD"],
+    #     5
+    # )
     
-    # Strategy 2: RSI Divergence - 15 minutes
+    # # Strategy 2: RSI Divergence - 15 minutes
+    # scheduler.add_strategy(
+    #     "RSI_Divergence_15min",
+    #     rsi_divergence_strategy,
+    #     ["XAUUSD", "EURUSD", "GBPUSD"],
+    #     15
+    # )
+    
+    # Strategy 4: Supertrend + RSI - 15 minutes
     scheduler.add_strategy(
-        "RSI_Divergence_15min",
-        rsi_divergence_strategy,
-        ["XAUUSD", "EURUSD", "GBPUSD"],
+        "Supertrend_RSI_15min",
+        supertrend_rsi_strategy,
+        ["XAUUSD", "EURUSD"],
         15
     )
-    scheduler.add_strategy(
-        "RSI_Divergence_5min",
-        rsi_divergence_strategy,
-        [ "EURUSD"],
-        5
-    )
     
-    # Strategy 3: Moving Average Crossover - 1 hour (for trend confirmation)
-    scheduler.add_strategy(
-        "MA_Crossover_1H",
-        moving_average_crossover_strategy,
-        ["XAUUSD", "EURUSD", "GBPUSD"],
-        60
-    )
+    # scheduler.add_strategy(
+    #     "RSI_Divergence_5min",
+    #     rsi_divergence_strategy,
+    #     [ "EURUSD"],
+    #     5
+    # )
     
-    # Strategy 4: RSI Divergence - 4 hours (for major trend changes)
-    scheduler.add_strategy(
-        "RSI_Divergence_4H",
-        rsi_divergence_strategy,
-        ["XAUUSD", "EURUSD", "GBPUSD"],
-        240
-    )
     
     try:
         # Start the scheduler
