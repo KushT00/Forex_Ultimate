@@ -1,0 +1,82 @@
+2025-08-31 00:57:56,570 - INFO - MT5 initialized successfully
+2025-08-31 00:57:56,571 - INFO - Added strategy: Supertrend_RSI_15min for 15min timeframe
+2025-08-31 00:57:56,571 - INFO - Starting Multi-Timeframe Trading Scheduler...
+2025-08-31 00:57:56,572 - INFO - Supertrend_RSI_15min: Next execution at 2025-08-31 01:00:56.572360
+2025-08-31 00:57:56,572 - INFO - === MAIN LOOP STARTED ===
+2025-08-31 00:58:01,575 - INFO - === Scheduler loop running at 2025-08-31 00:58:00.575500 ===
+2025-08-31 00:58:02,377 - INFO - Scheduler stopped by user
+2025-08-31 00:58:02,378 - INFO - Scheduler shutdown complete
+2025-08-31 00:58:02,378 - INFO - Stopping scheduler...
+2025-08-31 00:58:02,379 - INFO - MT5 connection closed
+2025-08-31 00:58:13,356 - INFO - MT5 initialized successfully
+2025-08-31 00:58:13,356 - INFO - Added strategy: Supertrend_RSI_15min for 15min timeframe
+2025-08-31 00:58:13,356 - INFO - Starting Multi-Timeframe Trading Scheduler...
+2025-08-31 00:58:13,356 - INFO - Supertrend_RSI_15min: Next execution at 2025-08-31 01:00:13.356602
+2025-08-31 00:58:13,356 - INFO - === MAIN LOOP STARTED ===
+2025-08-31 00:58:21,371 - INFO - === Scheduler loop running at 2025-08-31 00:58:20.371263 ===
+2025-08-31 00:58:31,378 - INFO - === Scheduler loop running at 2025-08-31 00:58:30.378361 ===
+2025-08-31 00:58:41,387 - INFO - === Scheduler loop running at 2025-08-31 00:58:40.386503 ===
+2025-08-31 00:58:42,607 - INFO - Scheduler stopped by user
+2025-08-31 00:58:42,607 - INFO - Scheduler shutdown complete
+2025-08-31 00:58:42,607 - INFO - Stopping scheduler...
+2025-08-31 00:58:42,607 - INFO - MT5 connection closed
+2025-08-31 00:58:56,927 - INFO - MT5 initialized successfully
+2025-08-31 00:58:56,929 - INFO - Added strategy: Supertrend_RSI_15min for 15min timeframe
+2025-08-31 00:58:56,929 - INFO - Starting Multi-Timeframe Trading Scheduler...
+2025-08-31 00:58:56,930 - INFO - Supertrend_RSI_15min: Next execution at 2025-08-31 01:00:56.930330
+2025-08-31 00:58:56,930 - INFO - === MAIN LOOP STARTED ===
+2025-08-31 00:59:01,934 - INFO - === Scheduler loop running at 2025-08-31 00:59:00.933893 ===
+2025-08-31 00:59:11,940 - INFO - === Scheduler loop running at 2025-08-31 00:59:10.939581 ===
+2025-08-31 00:59:21,947 - INFO - === Scheduler loop running at 2025-08-31 00:59:20.946020 ===
+2025-08-31 00:59:31,953 - INFO - === Scheduler loop running at 2025-08-31 00:59:30.953344 ===
+2025-08-31 00:59:41,963 - INFO - === Scheduler loop running at 2025-08-31 00:59:40.961077 ===
+2025-08-31 00:59:51,970 - INFO - === Scheduler loop running at 2025-08-31 00:59:50.969776 ===
+2025-08-31 01:00:01,983 - INFO - === Scheduler loop running at 2025-08-31 01:00:00.983182 ===
+2025-08-31 01:00:11,993 - INFO - === Scheduler loop running at 2025-08-31 01:00:10.993402 ===
+2025-08-31 01:00:31,004 - INFO - === Scheduler loop running at 2025-08-31 01:00:30.004135 ===
+2025-08-31 01:00:41,010 - INFO - === Scheduler loop running at 2025-08-31 01:00:40.010168 ===
+2025-08-31 01:00:51,020 - INFO - === Scheduler loop running at 2025-08-31 01:00:50.019869 ===
+2025-08-31 01:00:57,024 - INFO - === TRIGGERING Supertrend_RSI_15min at 2025-08-31 01:00:57.024363 ===
+2025-08-31 01:00:57,024 - INFO - === Supertrend_RSI_15min: FUNCTION CALLED ===
+2025-08-31 01:00:57,024 - INFO - === Supertrend_RSI_15min: Checking candle closure for 15min timeframe ===
+2025-08-31 01:00:57,024 - INFO - *** Supertrend_RSI_15min: EXECUTING on 15-minute timeframe at 2025-08-31 01:00:57.024363 ***
+2025-08-31 01:00:57,106 - ERROR - Supertrend_RSI_15min - XAUUSD Error: 'NoneType' object has no attribute 'get'
+2025-08-31 01:00:57,149 - INFO - Trade logged: SELL for EURUSD
+2025-08-31 01:00:57,149 - INFO - Supertrend_RSI_15min - EURUSD: SELL - Trend changed to DOWN
+2025-08-31 01:00:57,149 - INFO - Supertrend_RSI_15min: Next execution scheduled for 2025-08-31 01:15:57.149142
+2025-08-31 01:01:01,161 - INFO - === Scheduler loop running at 2025-08-31 01:01:00.160650 ===
+2025-08-31 01:01:11,177 - INFO - === Scheduler loop running at 2025-08-31 01:01:10.176356 ===
+2025-08-31 01:01:21,186 - INFO - === Scheduler loop running at 2025-08-31 01:01:20.185525 ===
+2025-08-31 01:01:31,194 - INFO - === Scheduler loop running at 2025-08-31 01:01:30.193720 ===
+2025-08-31 01:01:41,204 - INFO - === Scheduler loop running at 2025-08-31 01:01:40.203759 ===
+2025-08-31 01:01:51,220 - INFO - === Scheduler loop running at 2025-08-31 01:01:50.219634 ===
+2025-08-31 01:02:01,228 - INFO - === Scheduler loop running at 2025-08-31 01:02:00.228625 ===
+2025-08-31 01:02:11,243 - INFO - === Scheduler loop running at 2025-08-31 01:02:10.242320 ===
+2025-08-31 01:02:21,251 - INFO - === Scheduler loop running at 2025-08-31 01:02:20.250475 ===
+2025-08-31 01:02:31,266 - INFO - === Scheduler loop running at 2025-08-31 01:02:30.261573 ===
+2025-08-31 01:02:41,282 - INFO - === Scheduler loop running at 2025-08-31 01:02:40.281810 ===
+2025-08-31 01:02:51,301 - INFO - === Scheduler loop running at 2025-08-31 01:02:50.300823 ===
+2025-08-31 01:03:01,319 - INFO - === Scheduler loop running at 2025-08-31 01:03:00.319365 ===
+2025-08-31 01:03:11,327 - INFO - === Scheduler loop running at 2025-08-31 01:03:10.326367 ===
+2025-08-31 01:03:21,336 - INFO - === Scheduler loop running at 2025-08-31 01:03:20.335914 ===
+2025-08-31 01:03:31,351 - INFO - === Scheduler loop running at 2025-08-31 01:03:30.350185 ===
+2025-08-31 01:03:41,357 - INFO - === Scheduler loop running at 2025-08-31 01:03:40.357413 ===
+2025-08-31 01:03:51,368 - INFO - === Scheduler loop running at 2025-08-31 01:03:50.368217 ===
+2025-08-31 01:04:01,376 - INFO - === Scheduler loop running at 2025-08-31 01:04:00.375955 ===
+2025-08-31 01:04:11,389 - INFO - === Scheduler loop running at 2025-08-31 01:04:10.388983 ===
+2025-08-31 01:04:21,399 - INFO - === Scheduler loop running at 2025-08-31 01:04:20.398482 ===
+2025-08-31 01:04:31,405 - INFO - === Scheduler loop running at 2025-08-31 01:04:30.405138 ===
+2025-08-31 01:04:41,413 - INFO - === Scheduler loop running at 2025-08-31 01:04:40.411965 ===
+2025-08-31 01:04:51,421 - INFO - === Scheduler loop running at 2025-08-31 01:04:50.420878 ===
+2025-08-31 01:05:01,430 - INFO - === Scheduler loop running at 2025-08-31 01:05:00.430022 ===
+2025-08-31 01:05:11,436 - INFO - === Scheduler loop running at 2025-08-31 01:05:10.435589 ===
+2025-08-31 01:05:21,441 - INFO - === Scheduler loop running at 2025-08-31 01:05:20.441578 ===
+2025-08-31 01:05:31,449 - INFO - === Scheduler loop running at 2025-08-31 01:05:30.448540 ===
+2025-08-31 01:05:41,453 - INFO - === Scheduler loop running at 2025-08-31 01:05:40.452606 ===
+2025-08-31 01:05:51,460 - INFO - === Scheduler loop running at 2025-08-31 01:05:50.459814 ===
+2025-08-31 01:06:01,465 - INFO - === Scheduler loop running at 2025-08-31 01:06:00.464910 ===
+2025-08-31 01:06:11,470 - INFO - === Scheduler loop running at 2025-08-31 01:06:10.470368 ===
+2025-08-31 01:06:14,161 - INFO - Scheduler stopped by user
+2025-08-31 01:06:14,162 - INFO - Scheduler shutdown complete
+2025-08-31 01:06:14,162 - INFO - Stopping scheduler...
+2025-08-31 01:06:14,163 - INFO - MT5 connection closed

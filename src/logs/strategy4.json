@@ -1,0 +1,146 @@
+[
+    {
+        "strategy": "Supertrend+RSI",
+        "signal": "PUT_SHORT",
+        "reason": "Trend changed to DOWN",
+        "entry_price": 3399.37,
+        "rsi_value": 70.03901895206252,
+        "timestamp": "2025-08-28 12:15:00"
+    },
+    {
+        "strategy": "Supertrend+RSI",
+        "signal": "CALL_SHORT",
+        "reason": "Trend changed to UP",
+        "entry_price": 3411.56,
+        "rsi_value": 70.03901895206252,
+        "timestamp": "2025-08-28 17:00:00"
+    },
+    {
+        "strategy": "Supertrend+RSI",
+        "signal": "CLOSE",
+        "reason": "RSI crossed below 70 - RSI: 69.02",
+        "entry_price": 3410.91,
+        "rsi_value": 69.01950013732463,
+        "timestamp": "2025-08-28 17:15:00"
+    },
+    {
+        "strategy": "Supertrend+RSI",
+        "signal": "PUT_SHORT",
+        "reason": "Trend changed to DOWN",
+        "entry_price": 3406.39,
+        "rsi_value": 53.27659574468073,
+        "timestamp": "2025-08-28 18:15:00"
+    },
+    {
+        "strategy": "Supertrend+RSI",
+        "signal": "CALL_SHORT",
+        "reason": "Trend changed to UP",
+        "entry_price": 3410.9,
+        "rsi_value": 55.37794635600132,
+        "timestamp": "2025-08-28 18:45:00"
+    },
+    {
+        "strategy": "Supertrend+RSI",
+        "signal": "CLOSE",
+        "reason": "RSI crossed below 70 - RSI: 69.82",
+        "entry_price": 3415.57,
+        "rsi_value": 69.82441812984844,
+        "timestamp": "2025-08-28 20:00:00"
+    },
+    {
+        "strategy": "Supertrend+RSI",
+        "signal": "CLOSE",
+        "reason": "RSI crossed below 70 - RSI: 69.95",
+        "entry_price": 3418.54,
+        "rsi_value": 69.94991652754709,
+        "timestamp": "2025-08-28 22:30:00"
+    },
+    {
+        "strategy": "Supertrend+RSI",
+        "signal": "CLOSE",
+        "reason": "RSI crossed below 70 - RSI: 65.27",
+        "entry_price": 3419.48,
+        "rsi_value": 65.27331189710682,
+        "timestamp": "2025-08-28 23:00:00"
+    },
+    {
+        "strategy": "Supertrend+RSI",
+        "signal": "PUT_SHORT",
+        "reason": "Trend changed to DOWN",
+        "entry_price": 3414.83,
+        "rsi_value": 33.868715083799955,
+        "timestamp": "2025-08-29 02:45:00"
+    },
+    {
+        "strategy": "Supertrend+RSI",
+        "signal": "CALL_SHORT",
+        "reason": "Trend changed to UP",
+        "entry_price": 3417.24,
+        "rsi_value": 45.89127686472778,
+        "timestamp": "2025-08-29 03:00:00"
+    },
+    {
+        "strategy": "Supertrend+RSI",
+        "signal": "PUT_SHORT",
+        "reason": "Trend changed to DOWN",
+        "entry_price": 3414.67,
+        "rsi_value": 24.695534506089587,
+        "timestamp": "2025-08-29 03:15:00"
+    },
+    {
+        "strategy": "Supertrend+RSI",
+        "signal": "CLOSE",
+        "reason": "RSI crossed above 30 - RSI: 32.91",
+        "entry_price": 3413.46,
+        "rsi_value": 32.91253381424745,
+        "timestamp": "2025-08-29 03:45:00"
+    },
+    {
+        "strategy": "Supertrend+RSI",
+        "signal": "CLOSE",
+        "reason": "RSI crossed above 30 - RSI: 39.08",
+        "entry_price": 3412.86,
+        "rsi_value": 39.083386378103356,
+        "timestamp": "2025-08-29 05:00:00"
+    },
+    {
+        "strategy": "Supertrend+RSI",
+        "signal": "CALL_SHORT",
+        "reason": "Trend changed to UP",
+        "entry_price": 3413.88,
+        "rsi_value": 64.72911963882669,
+        "timestamp": "2025-08-29 11:00:00"
+    },
+    {
+        "strategy": "Supertrend+RSI",
+        "signal": "PUT_SHORT",
+        "reason": "Trend changed to DOWN",
+        "entry_price": 3412.61,
+        "rsi_value": 60.00000000000048,
+        "timestamp": "2025-08-29 11:15:00"
+    },
+    {
+        "strategy": "Supertrend+RSI",
+        "signal": "CLOSE",
+        "reason": "RSI crossed above 30 - RSI: 43.79",
+        "entry_price": 3410.69,
+        "rsi_value": 43.79042690814984,
+        "timestamp": "2025-08-29 14:45:00"
+    },
+    {
+        "strategy": "Supertrend+RSI",
+        "signal": "CALL_SHORT",
+        "reason": "Trend changed to UP",
+        "entry_price": 3412.67,
+        "rsi_value": 58.420502092050924,
+        "timestamp": "2025-08-29 15:30:00"
+    },
+    {
+        "strategy": "Supertrend+RSI",
+        "signal": "CLOSE",
+        "reason": "RSI crossed below 70 - RSI: 67.68",
+        "entry_price": 3444.68,
+        "rsi_value": 67.68292682926857,
+        "timestamp": "2025-08-29 20:30:00"
+    }
+]
