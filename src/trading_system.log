@@ -1,0 +1,256 @@
+2025-08-30 21:28:29,380 - INFO - MT5 initialized successfully
+2025-08-30 21:28:29,382 - INFO - Added strategy: MA_Crossover_5min for 5min timeframe
+2025-08-30 21:28:29,382 - INFO - Added strategy: RSI_Divergence_15min for 15min timeframe
+2025-08-30 21:28:29,382 - INFO - Added strategy: MA_Crossover_1H for 60min timeframe
+2025-08-30 21:28:29,382 - INFO - Added strategy: RSI_Divergence_4H for 240min timeframe
+2025-08-30 21:28:29,382 - INFO - Starting Multi-Timeframe Trading Scheduler...
+2025-08-30 21:28:29,382 - INFO - Scheduled MA_Crossover_5min to run every 5 minutes
+2025-08-30 21:28:29,382 - INFO - Scheduled RSI_Divergence_15min to run every 15 minutes
+2025-08-30 21:28:29,410 - INFO - Scheduled MA_Crossover_1H to run every 60 minutes
+2025-08-30 21:28:29,410 - INFO - Scheduled RSI_Divergence_4H to run every 240 minutes
+2025-08-30 21:28:29,410 - INFO - MA_Crossover_5min: Next execution at 2025-08-30 21:30:29.410370
+2025-08-30 21:28:29,410 - INFO - RSI_Divergence_15min: Next execution at 2025-08-30 21:30:29.410370
+2025-08-30 21:28:29,410 - INFO - MA_Crossover_1H: Next execution at 2025-08-30 22:00:29.410370
+2025-08-30 21:28:29,413 - INFO - RSI_Divergence_4H: Next execution at 2025-08-31 00:00:29.413518
+2025-08-30 21:30:00,469 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:00,469 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:01,470 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:01,470 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:02,486 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:02,486 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:03,488 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:03,488 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:04,494 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:04,494 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:05,497 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:05,497 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:06,498 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:06,498 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:07,504 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:07,504 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:08,505 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:08,506 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:09,507 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:09,507 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:10,509 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:10,509 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:11,515 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:11,519 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:12,521 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:12,521 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:13,522 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:13,522 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:14,524 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:14,524 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:15,526 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:15,526 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:16,527 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:16,527 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:17,529 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:17,529 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:18,531 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:18,531 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:19,532 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:19,532 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:20,533 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:20,533 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:21,534 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:21,534 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:22,535 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:22,535 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:23,536 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:23,536 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:24,537 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:24,537 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:25,539 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:25,539 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:26,587 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:26,590 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:27,592 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:27,592 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:28,594 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:28,594 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:29,595 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:29,595 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:30,598 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:30,623 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:31,625 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:31,625 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:32,627 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:32,629 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:33,630 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:33,630 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:34,632 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:34,632 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:35,634 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:35,634 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:36,635 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:36,635 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:37,636 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:37,636 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:38,638 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:38,639 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:39,640 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:39,640 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:40,641 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:40,641 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:41,643 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:41,643 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:42,645 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:42,645 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:43,646 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:43,646 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:44,648 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:44,648 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:45,650 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:45,650 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:46,652 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:46,652 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:47,654 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:47,654 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:48,657 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:48,657 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:49,658 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:49,659 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:50,660 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:50,660 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:51,662 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:51,662 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:52,663 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:52,663 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:53,665 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:53,665 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:54,666 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:54,666 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:55,668 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:55,668 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:56,669 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:56,669 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:57,671 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:57,671 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:58,672 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:58,672 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:30:59,674 - INFO - 5-minute candle closed - MA_Crossover_5min eligible to run
+2025-08-30 21:30:59,674 - INFO - 15-minute candle closed - RSI_Divergence_15min eligible to run
+2025-08-30 21:33:29,781 - INFO - MA_Crossover_5min: Waiting for 5-minute candle closure
+2025-08-30 21:33:47,673 - INFO - Scheduler stopped by user
+2025-08-30 21:33:47,673 - INFO - Scheduler shutdown complete
+2025-08-30 21:33:47,673 - INFO - Stopping scheduler...
+2025-08-30 21:33:47,673 - INFO - MT5 connection closed
+2025-08-30 21:33:52,481 - INFO - MT5 initialized successfully
+2025-08-30 21:33:52,481 - INFO - Added strategy: MA_Crossover_5min for 5min timeframe
+2025-08-30 21:33:52,481 - INFO - Added strategy: RSI_Divergence_15min for 15min timeframe
+2025-08-30 21:33:52,481 - INFO - Added strategy: MA_Crossover_1H for 60min timeframe
+2025-08-30 21:33:52,481 - INFO - Added strategy: RSI_Divergence_4H for 240min timeframe
+2025-08-30 21:33:52,481 - INFO - Starting Multi-Timeframe Trading Scheduler...
+2025-08-30 21:33:52,481 - INFO - Scheduled MA_Crossover_5min to run every 5 minutes
+2025-08-30 21:33:52,481 - INFO - Scheduled RSI_Divergence_15min to run every 15 minutes
+2025-08-30 21:33:52,481 - INFO - Scheduled MA_Crossover_1H to run every 60 minutes
+2025-08-30 21:33:52,481 - INFO - Scheduled RSI_Divergence_4H to run every 240 minutes
+2025-08-30 21:33:52,481 - INFO - MA_Crossover_5min: Next execution at 2025-08-30 21:35:52.481004
+2025-08-30 21:33:52,481 - INFO - RSI_Divergence_15min: Next execution at 2025-08-30 21:45:52.481004
+2025-08-30 21:33:52,481 - INFO - MA_Crossover_1H: Next execution at 2025-08-30 22:00:52.481004
+2025-08-30 21:33:52,481 - INFO - RSI_Divergence_4H: Next execution at 2025-08-31 00:00:52.481004
+2025-08-30 21:38:34,131 - INFO - Scheduler stopped by user
+2025-08-30 21:38:34,131 - INFO - Scheduler shutdown complete
+2025-08-30 21:38:34,132 - INFO - Stopping scheduler...
+2025-08-30 21:38:34,132 - INFO - MT5 connection closed
+2025-08-30 21:38:38,949 - INFO - MT5 initialized successfully
+2025-08-30 21:38:38,949 - INFO - Added strategy: MA_Crossover_5min for 5min timeframe
+2025-08-30 21:38:38,949 - INFO - Added strategy: RSI_Divergence_15min for 15min timeframe
+2025-08-30 21:38:38,949 - INFO - Added strategy: MA_Crossover_1H for 60min timeframe
+2025-08-30 21:38:38,949 - INFO - Added strategy: RSI_Divergence_4H for 240min timeframe
+2025-08-30 21:38:38,949 - INFO - Starting Multi-Timeframe Trading Scheduler...
+2025-08-30 21:38:38,949 - INFO - Scheduled MA_Crossover_5min to run every 5 minutes
+2025-08-30 21:38:38,949 - INFO - Scheduled RSI_Divergence_15min to run every 15 minutes
+2025-08-30 21:38:38,949 - INFO - Scheduled MA_Crossover_1H to run every 60 minutes
+2025-08-30 21:38:38,949 - INFO - Scheduled RSI_Divergence_4H to run every 240 minutes
+2025-08-30 21:38:38,949 - INFO - MA_Crossover_5min: Next execution at 2025-08-30 21:40:38.949369
+2025-08-30 21:38:38,949 - INFO - RSI_Divergence_15min: Next execution at 2025-08-30 21:45:38.949369
+2025-08-30 21:38:38,949 - INFO - MA_Crossover_1H: Next execution at 2025-08-30 22:00:38.949369
+2025-08-30 21:38:38,949 - INFO - RSI_Divergence_4H: Next execution at 2025-08-31 00:00:38.949369
+2025-08-30 21:38:38,949 - INFO - === MAIN LOOP STARTED ===
+2025-08-30 21:38:40,955 - INFO - === Scheduler loop running at 2025-08-30 21:38:40.955844 ===
+2025-08-30 21:38:50,961 - INFO - === Scheduler loop running at 2025-08-30 21:38:50.961525 ===
+2025-08-30 21:39:00,967 - INFO - === Scheduler loop running at 2025-08-30 21:39:00.967800 ===
+2025-08-30 21:39:10,974 - INFO - === Scheduler loop running at 2025-08-30 21:39:10.974632 ===
+2025-08-30 21:39:20,980 - INFO - === Scheduler loop running at 2025-08-30 21:39:20.980609 ===
+2025-08-30 21:39:30,985 - INFO - === Scheduler loop running at 2025-08-30 21:39:30.985259 ===
+2025-08-30 21:39:40,992 - INFO - === Scheduler loop running at 2025-08-30 21:39:40.992776 ===
+2025-08-30 21:39:50,998 - INFO - === Scheduler loop running at 2025-08-30 21:39:50.998104 ===
+2025-08-30 21:40:00,003 - INFO - === Scheduler loop running at 2025-08-30 21:40:00.003839 ===
+2025-08-30 21:40:10,010 - INFO - === Scheduler loop running at 2025-08-30 21:40:10.010536 ===
+2025-08-30 21:40:20,019 - INFO - === Scheduler loop running at 2025-08-30 21:40:20.017850 ===
+2025-08-30 21:40:30,025 - INFO - === Scheduler loop running at 2025-08-30 21:40:30.025902 ===
+2025-08-30 21:40:40,034 - INFO - === Scheduler loop running at 2025-08-30 21:40:40.034966 ===
+2025-08-30 21:40:50,041 - INFO - === Scheduler loop running at 2025-08-30 21:40:50.041983 ===
+2025-08-30 21:41:00,054 - INFO - === Scheduler loop running at 2025-08-30 21:41:00.054649 ===
+2025-08-30 21:41:10,065 - INFO - === Scheduler loop running at 2025-08-30 21:41:10.065680 ===
+2025-08-30 21:41:16,912 - INFO - Scheduler stopped by user
+2025-08-30 21:41:16,912 - INFO - Scheduler shutdown complete
+2025-08-30 21:41:16,912 - INFO - Stopping scheduler...
+2025-08-30 21:41:16,912 - INFO - MT5 connection closed
+2025-08-30 21:43:15,511 - INFO - MT5 initialized successfully
+2025-08-30 21:43:15,511 - INFO - Added strategy: MA_Crossover_5min for 5min timeframe
+2025-08-30 21:43:15,511 - INFO - Added strategy: RSI_Divergence_15min for 15min timeframe
+2025-08-30 21:43:15,511 - INFO - Added strategy: MA_Crossover_1H for 60min timeframe
+2025-08-30 21:43:15,514 - INFO - Added strategy: RSI_Divergence_4H for 240min timeframe
+2025-08-30 21:43:15,514 - INFO - Starting Multi-Timeframe Trading Scheduler...
+2025-08-30 21:43:15,514 - INFO - MA_Crossover_5min: Next execution at 2025-08-30 21:45:15.514362
+2025-08-30 21:43:15,514 - INFO - RSI_Divergence_15min: Next execution at 2025-08-30 21:45:15.514362
+2025-08-30 21:43:15,514 - INFO - MA_Crossover_1H: Next execution at 2025-08-30 22:00:15.514362
+2025-08-30 21:43:15,514 - INFO - RSI_Divergence_4H: Next execution at 2025-08-31 00:00:15.514362
+2025-08-30 21:43:15,514 - INFO - === MAIN LOOP STARTED ===
+2025-08-30 21:43:21,527 - INFO - === Scheduler loop running at 2025-08-30 21:43:20.527237 ===
+2025-08-30 21:43:31,532 - INFO - === Scheduler loop running at 2025-08-30 21:43:30.532442 ===
+2025-08-30 21:43:36,044 - INFO - Scheduler stopped by user
+2025-08-30 21:43:36,045 - INFO - Scheduler shutdown complete
+2025-08-30 21:43:36,045 - INFO - Stopping scheduler...
+2025-08-30 21:43:36,045 - INFO - MT5 connection closed
+2025-08-30 21:44:08,632 - INFO - MT5 initialized successfully
+2025-08-30 21:44:08,632 - INFO - Added strategy: MA_Crossover_5min for 5min timeframe
+2025-08-30 21:44:08,632 - INFO - Added strategy: RSI_Divergence_15min for 15min timeframe
+2025-08-30 21:44:08,632 - INFO - Added strategy: MA_Crossover_1H for 60min timeframe
+2025-08-30 21:44:08,632 - INFO - Added strategy: RSI_Divergence_4H for 240min timeframe
+2025-08-30 21:44:08,632 - INFO - Starting Multi-Timeframe Trading Scheduler...
+2025-08-30 21:44:08,632 - INFO - MA_Crossover_5min: Next execution at 2025-08-30 21:45:08.632467
+2025-08-30 21:44:08,632 - INFO - RSI_Divergence_15min: Next execution at 2025-08-30 21:45:08.632467
+2025-08-30 21:44:08,632 - INFO - MA_Crossover_1H: Next execution at 2025-08-30 22:00:08.632467
+2025-08-30 21:44:08,632 - INFO - RSI_Divergence_4H: Next execution at 2025-08-31 00:00:08.632467
+2025-08-30 21:44:08,632 - INFO - === MAIN LOOP STARTED ===
+2025-08-30 21:44:11,642 - INFO - === Scheduler loop running at 2025-08-30 21:44:10.641987 ===
+2025-08-30 21:44:21,655 - INFO - === Scheduler loop running at 2025-08-30 21:44:20.654881 ===
+2025-08-30 21:44:31,660 - INFO - === Scheduler loop running at 2025-08-30 21:44:30.659862 ===
+2025-08-30 21:44:41,665 - INFO - === Scheduler loop running at 2025-08-30 21:44:40.664714 ===
+2025-08-30 21:44:51,671 - INFO - === Scheduler loop running at 2025-08-30 21:44:50.671376 ===
+2025-08-30 21:45:01,676 - INFO - === Scheduler loop running at 2025-08-30 21:45:00.676172 ===
+2025-08-30 21:45:08,680 - INFO - === TRIGGERING MA_Crossover_5min at 2025-08-30 21:45:08.680837 ===
+2025-08-30 21:45:08,680 - INFO - === MA_Crossover_5min: FUNCTION CALLED ===
+2025-08-30 21:45:08,680 - INFO - === MA_Crossover_5min: Checking candle closure for 5min timeframe ===
+2025-08-30 21:45:08,681 - INFO - *** MA_Crossover_5min: EXECUTING on 5-minute timeframe at 2025-08-30 21:45:08.681974 ***
+2025-08-30 21:45:08,701 - INFO - Trade logged: HOLD for XAUUSD
+2025-08-30 21:45:08,713 - INFO - MA_Crossover_5min - XAUUSD: HOLD - No crossover - BULLISH trend continues
+2025-08-30 21:45:08,941 - INFO - Trade logged: HOLD for EURUSD
+2025-08-30 21:45:08,943 - INFO - MA_Crossover_5min - EURUSD: HOLD - No crossover - BEARISH trend continues
+2025-08-30 21:45:09,206 - INFO - Trade logged: HOLD for GBPUSD
+2025-08-30 21:45:09,206 - INFO - MA_Crossover_5min - GBPUSD: HOLD - No crossover - BEARISH trend continues
+2025-08-30 21:45:09,206 - INFO - MA_Crossover_5min: Next execution scheduled for 2025-08-30 21:50:09.206476
+2025-08-30 21:45:09,206 - INFO - === TRIGGERING RSI_Divergence_15min at 2025-08-30 21:45:08.680837 ===
+2025-08-30 21:45:09,206 - INFO - === RSI_Divergence_15min: FUNCTION CALLED ===
+2025-08-30 21:45:09,206 - INFO - === RSI_Divergence_15min: Checking candle closure for 15min timeframe ===
+2025-08-30 21:45:09,206 - INFO - *** RSI_Divergence_15min: EXECUTING on 15-minute timeframe at 2025-08-30 21:45:09.206476 ***
+2025-08-30 21:45:09,281 - INFO - Trade logged: HOLD for XAUUSD
+2025-08-30 21:45:09,281 - INFO - RSI_Divergence_15min - XAUUSD: HOLD - No divergence or extreme RSI - Current RSI: 50.00
+2025-08-30 21:45:09,384 - INFO - Trade logged: BUY for EURUSD
+2025-08-30 21:45:09,384 - INFO - RSI_Divergence_15min - EURUSD: BUY - Bullish RSI divergence detected - Price lower lows, RSI higher lows
+2025-08-30 21:45:09,500 - INFO - Trade logged: HOLD for GBPUSD
+2025-08-30 21:45:09,500 - INFO - RSI_Divergence_15min - GBPUSD: HOLD - No divergence or extreme RSI - Current RSI: 40.41
+2025-08-30 21:45:09,500 - INFO - RSI_Divergence_15min: Next execution scheduled for 2025-08-30 22:00:09.500571
+2025-08-30 21:45:11,505 - INFO - === Scheduler loop running at 2025-08-30 21:45:10.505031 ===
+2025-08-30 21:45:21,512 - INFO - === Scheduler loop running at 2025-08-30 21:45:20.512270 ===
+2025-08-30 21:45:31,518 - INFO - === Scheduler loop running at 2025-08-30 21:45:30.517396 ===
+2025-08-30 21:45:41,523 - INFO - === Scheduler loop running at 2025-08-30 21:45:40.523390 ===
+2025-08-30 21:45:44,218 - INFO - Scheduler stopped by user
+2025-08-30 21:45:44,219 - INFO - Scheduler shutdown complete
+2025-08-30 21:45:44,219 - INFO - Stopping scheduler...
+2025-08-30 21:45:44,220 - INFO - MT5 connection closed

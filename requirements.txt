@@ -11,3 +11,5 @@ langgraph
 rich
 apscheduler
 sqlite-utils
+MetaTrader5
+schedule
