@@ -80,3 +80,301 @@
 2025-08-31 01:06:14,162 - INFO - Scheduler shutdown complete
 2025-08-31 01:06:14,162 - INFO - Stopping scheduler...
 2025-08-31 01:06:14,163 - INFO - MT5 connection closed
+2025-09-01 11:17:17,913 - INFO - MT5 initialized successfully
+2025-09-01 11:17:17,913 - INFO - Added strategy: Supertrend_RSI_15min for 15min timeframe
+2025-09-01 11:17:17,913 - INFO - Starting Multi-Timeframe Trading Scheduler...
+2025-09-01 11:17:17,913 - INFO - Supertrend_RSI_15min: Next execution at 2025-09-01 11:30:17.913794
+2025-09-01 11:17:17,913 - INFO - === MAIN LOOP STARTED ===
+2025-09-01 11:17:21,918 - INFO - === Scheduler loop running at 2025-09-01 11:17:20.917707 ===
+2025-09-01 11:17:31,954 - INFO - === Scheduler loop running at 2025-09-01 11:17:30.954274 ===
+2025-09-01 11:17:41,020 - INFO - === Scheduler loop running at 2025-09-01 11:17:40.020194 ===
+2025-09-01 11:17:51,025 - INFO - === Scheduler loop running at 2025-09-01 11:17:50.025589 ===
+2025-09-01 11:18:01,042 - INFO - === Scheduler loop running at 2025-09-01 11:18:00.042657 ===
+2025-09-01 11:18:11,084 - INFO - === Scheduler loop running at 2025-09-01 11:18:10.084386 ===
+2025-09-01 11:18:21,097 - INFO - === Scheduler loop running at 2025-09-01 11:18:20.097054 ===
+2025-09-01 11:18:31,107 - INFO - === Scheduler loop running at 2025-09-01 11:18:30.106744 ===
+2025-09-01 11:18:41,116 - INFO - === Scheduler loop running at 2025-09-01 11:18:40.114926 ===
+2025-09-01 11:18:51,124 - INFO - === Scheduler loop running at 2025-09-01 11:18:50.123145 ===
+2025-09-01 11:19:01,131 - INFO - === Scheduler loop running at 2025-09-01 11:19:00.131014 ===
+2025-09-01 11:19:11,139 - INFO - === Scheduler loop running at 2025-09-01 11:19:10.138031 ===
+2025-09-01 11:19:21,184 - INFO - === Scheduler loop running at 2025-09-01 11:19:20.183739 ===
+2025-09-01 11:19:31,193 - INFO - === Scheduler loop running at 2025-09-01 11:19:30.190938 ===
+2025-09-01 11:19:41,261 - INFO - === Scheduler loop running at 2025-09-01 11:19:40.260374 ===
+2025-09-01 11:19:51,273 - INFO - === Scheduler loop running at 2025-09-01 11:19:50.272398 ===
+2025-09-01 11:20:01,308 - INFO - === Scheduler loop running at 2025-09-01 11:20:00.307365 ===
+2025-09-01 11:20:11,347 - INFO - === Scheduler loop running at 2025-09-01 11:20:10.346564 ===
+2025-09-01 11:20:21,368 - INFO - === Scheduler loop running at 2025-09-01 11:20:20.367973 ===
+2025-09-01 11:20:31,388 - INFO - === Scheduler loop running at 2025-09-01 11:20:30.387574 ===
+2025-09-01 11:20:41,403 - INFO - === Scheduler loop running at 2025-09-01 11:20:40.402426 ===
+2025-09-01 11:20:51,417 - INFO - === Scheduler loop running at 2025-09-01 11:20:50.417223 ===
+2025-09-01 11:21:01,433 - INFO - === Scheduler loop running at 2025-09-01 11:21:00.431340 ===
+2025-09-01 11:21:11,495 - INFO - === Scheduler loop running at 2025-09-01 11:21:10.494836 ===
+2025-09-01 11:23:31,528 - INFO - === Scheduler loop running at 2025-09-01 11:23:30.528006 ===
+2025-09-01 11:23:36,688 - INFO - Scheduler stopped by user
+2025-09-01 11:23:36,698 - INFO - Scheduler shutdown complete
+2025-09-01 11:23:36,698 - INFO - Stopping scheduler...
+2025-09-01 11:23:36,700 - INFO - MT5 connection closed
+2025-09-01 11:24:21,814 - INFO - MT5 initialized successfully
+2025-09-01 11:24:21,814 - INFO - Added strategy: MA_Crossover_5min for 5min timeframe
+2025-09-01 11:24:21,814 - INFO - Added strategy: RSI_Divergence_15min for 15min timeframe
+2025-09-01 11:24:21,814 - INFO - Added strategy: Supertrend_RSI_15min for 15min timeframe
+2025-09-01 11:24:21,814 - INFO - Starting Multi-Timeframe Trading Scheduler...
+2025-09-01 11:24:21,820 - INFO - MA_Crossover_5min: Next execution at 2025-09-01 11:25:21.820527
+2025-09-01 11:24:21,820 - INFO - RSI_Divergence_15min: Next execution at 2025-09-01 11:30:21.820527
+2025-09-01 11:24:21,820 - INFO - Supertrend_RSI_15min: Next execution at 2025-09-01 11:30:21.820527
+2025-09-01 11:24:21,820 - INFO - === MAIN LOOP STARTED ===
+2025-09-01 11:24:31,829 - INFO - === Scheduler loop running at 2025-09-01 11:24:30.828866 ===
+2025-09-01 11:24:41,840 - INFO - === Scheduler loop running at 2025-09-01 11:24:40.839189 ===
+2025-09-01 11:24:51,880 - INFO - === Scheduler loop running at 2025-09-01 11:24:50.879537 ===
+2025-09-01 11:24:56,223 - INFO - Scheduler stopped by user
+2025-09-01 11:24:56,225 - INFO - Scheduler shutdown complete
+2025-09-01 11:24:56,226 - INFO - Stopping scheduler...
+2025-09-01 11:24:56,226 - INFO - MT5 connection closed
+2025-09-01 11:25:09,198 - INFO - MT5 initialized successfully
+2025-09-01 11:25:09,198 - INFO - Added strategy: MA_Crossover_5min for 5min timeframe
+2025-09-01 11:25:09,198 - INFO - Added strategy: RSI_Divergence_15min for 15min timeframe
+2025-09-01 11:25:09,198 - INFO - Added strategy: Supertrend_RSI_15min for 15min timeframe
+2025-09-01 11:25:09,209 - INFO - Starting Multi-Timeframe Trading Scheduler...
+2025-09-01 11:25:09,209 - INFO - MA_Crossover_5min: Next execution at 2025-09-01 11:30:09.209081
+2025-09-01 11:25:09,209 - INFO - RSI_Divergence_15min: Next execution at 2025-09-01 11:30:09.209081
+2025-09-01 11:25:09,209 - INFO - Supertrend_RSI_15min: Next execution at 2025-09-01 11:30:09.209081
+2025-09-01 11:25:09,209 - INFO - === MAIN LOOP STARTED ===
+2025-09-01 11:25:11,211 - INFO - === Scheduler loop running at 2025-09-01 11:25:10.211094 ===
+2025-09-01 11:25:21,184 - INFO - Scheduler stopped by user
+2025-09-01 11:25:21,186 - INFO - Scheduler shutdown complete
+2025-09-01 11:25:21,188 - INFO - Stopping scheduler...
+2025-09-01 11:25:21,188 - INFO - MT5 connection closed
+2025-09-01 11:29:24,969 - INFO - MT5 initialized successfully
+2025-09-01 11:29:24,969 - INFO - Added strategy: MA_Crossover_5min for 5min timeframe
+2025-09-01 11:29:24,969 - INFO - Added strategy: RSI_Divergence_15min for 15min timeframe
+2025-09-01 11:29:24,969 - INFO - Added strategy: Supertrend_RSI_15min for 15min timeframe
+2025-09-01 11:29:24,969 - INFO - Starting Multi-Timeframe Trading Scheduler...
+2025-09-01 11:29:24,969 - INFO - MA_Crossover_5min: Next execution at 2025-09-01 11:30:24.969199
+2025-09-01 11:29:24,969 - INFO - RSI_Divergence_15min: Next execution at 2025-09-01 11:30:24.969199
+2025-09-01 11:29:24,969 - INFO - Supertrend_RSI_15min: Next execution at 2025-09-01 11:30:24.969199
+2025-09-01 11:29:24,969 - INFO - === MAIN LOOP STARTED ===
+2025-09-01 11:29:31,978 - INFO - === Scheduler loop running at 2025-09-01 11:29:30.978203 ===
+2025-09-01 11:29:41,983 - INFO - === Scheduler loop running at 2025-09-01 11:29:40.983110 ===
+2025-09-01 11:29:51,046 - INFO - === Scheduler loop running at 2025-09-01 11:29:50.045792 ===
+2025-09-01 11:30:01,055 - INFO - === Scheduler loop running at 2025-09-01 11:30:00.055404 ===
+2025-09-01 11:30:11,100 - INFO - === Scheduler loop running at 2025-09-01 11:30:10.099796 ===
+2025-09-01 11:30:21,111 - INFO - === Scheduler loop running at 2025-09-01 11:30:20.110859 ===
+2025-09-01 11:30:25,136 - INFO - === TRIGGERING MA_Crossover_5min at 2025-09-01 11:30:25.136202 ===
+2025-09-01 11:30:25,138 - INFO - === MA_Crossover_5min: FUNCTION CALLED ===
+2025-09-01 11:30:25,142 - INFO - === MA_Crossover_5min: Checking candle closure for 5min timeframe ===
+2025-09-01 11:30:25,144 - INFO - *** MA_Crossover_5min: EXECUTING on 5-minute timeframe at 2025-09-01 11:30:25.144223 ***
+2025-09-01 11:30:25,213 - INFO - Trade logged: HOLD for XAUUSD
+2025-09-01 11:30:25,215 - INFO - MA_Crossover_5min - XAUUSD: HOLD - No crossover - BULLISH trend continues
+2025-09-01 11:30:25,251 - INFO - Trade logged: HOLD for EURUSD
+2025-09-01 11:30:25,251 - INFO - MA_Crossover_5min - EURUSD: HOLD - No crossover - BULLISH trend continues
+2025-09-01 11:30:25,276 - INFO - Trade logged: HOLD for GBPUSD
+2025-09-01 11:30:25,276 - INFO - MA_Crossover_5min - GBPUSD: HOLD - No crossover - BEARISH trend continues
+2025-09-01 11:30:25,276 - INFO - MA_Crossover_5min: Next execution scheduled for 2025-09-01 11:35:25.276917
+2025-09-01 11:30:25,276 - INFO - === TRIGGERING RSI_Divergence_15min at 2025-09-01 11:30:25.136202 ===
+2025-09-01 11:30:25,276 - INFO - === RSI_Divergence_15min: FUNCTION CALLED ===
+2025-09-01 11:30:25,279 - INFO - === RSI_Divergence_15min: Checking candle closure for 15min timeframe ===
+2025-09-01 11:30:25,279 - INFO - *** RSI_Divergence_15min: EXECUTING on 15-minute timeframe at 2025-09-01 11:30:25.279625 ***
+2025-09-01 11:30:25,312 - INFO - Trade logged: HOLD for XAUUSD
+2025-09-01 11:30:25,312 - INFO - RSI_Divergence_15min - XAUUSD: HOLD - No divergence or extreme RSI - Current RSI: 54.16
+2025-09-01 11:30:25,325 - INFO - Trade logged: HOLD for EURUSD
+2025-09-01 11:30:25,332 - INFO - RSI_Divergence_15min - EURUSD: HOLD - No divergence or extreme RSI - Current RSI: 68.15
+2025-09-01 11:30:25,357 - INFO - Trade logged: HOLD for GBPUSD
+2025-09-01 11:30:25,357 - INFO - RSI_Divergence_15min - GBPUSD: HOLD - No divergence or extreme RSI - Current RSI: 40.41
+2025-09-01 11:30:25,357 - INFO - RSI_Divergence_15min: Next execution scheduled for 2025-09-01 11:45:25.357700
+2025-09-01 11:30:25,363 - INFO - === TRIGGERING Supertrend_RSI_15min at 2025-09-01 11:30:25.136202 ===
+2025-09-01 11:30:25,363 - INFO - === Supertrend_RSI_15min: FUNCTION CALLED ===
+2025-09-01 11:30:25,363 - INFO - === Supertrend_RSI_15min: Checking candle closure for 15min timeframe ===
+2025-09-01 11:30:25,365 - INFO - *** Supertrend_RSI_15min: EXECUTING on 15-minute timeframe at 2025-09-01 11:30:25.363964 ***
+2025-09-01 11:30:25,389 - ERROR - Supertrend_RSI_15min - XAUUSD Error: 'NoneType' object has no attribute 'get'
+2025-09-01 11:30:25,409 - ERROR - Supertrend_RSI_15min - EURUSD Error: 'NoneType' object has no attribute 'get'
+2025-09-01 11:30:25,411 - INFO - Supertrend_RSI_15min: Next execution scheduled for 2025-09-01 11:45:25.411376
+2025-09-01 11:30:31,416 - INFO - === Scheduler loop running at 2025-09-01 11:30:30.416022 ===
+2025-09-01 11:30:41,424 - INFO - === Scheduler loop running at 2025-09-01 11:30:40.423550 ===
+2025-09-01 11:30:51,470 - INFO - === Scheduler loop running at 2025-09-01 11:30:50.469293 ===
+2025-09-01 11:31:01,479 - INFO - === Scheduler loop running at 2025-09-01 11:31:00.479241 ===
+2025-09-01 11:31:11,515 - INFO - === Scheduler loop running at 2025-09-01 11:31:10.514522 ===
+2025-09-01 11:31:21,640 - INFO - === Scheduler loop running at 2025-09-01 11:31:20.580877 ===
+2025-09-01 11:31:31,650 - INFO - === Scheduler loop running at 2025-09-01 11:31:30.649684 ===
+2025-09-01 11:31:41,660 - INFO - === Scheduler loop running at 2025-09-01 11:31:40.659285 ===
+2025-09-01 11:31:51,705 - INFO - === Scheduler loop running at 2025-09-01 11:31:50.704667 ===
+2025-09-01 11:32:01,714 - INFO - === Scheduler loop running at 2025-09-01 11:32:00.713886 ===
+2025-09-01 11:32:11,722 - INFO - === Scheduler loop running at 2025-09-01 11:32:10.721903 ===
+2025-09-01 11:32:21,788 - INFO - === Scheduler loop running at 2025-09-01 11:32:20.787932 ===
+2025-09-01 11:32:31,895 - INFO - === Scheduler loop running at 2025-09-01 11:32:30.894389 ===
+2025-09-01 11:32:41,985 - INFO - === Scheduler loop running at 2025-09-01 11:32:40.984794 ===
+2025-09-01 11:32:51,040 - INFO - === Scheduler loop running at 2025-09-01 11:32:50.040003 ===
+2025-09-01 11:33:01,160 - INFO - === Scheduler loop running at 2025-09-01 11:33:00.151876 ===
+2025-09-01 11:33:11,226 - INFO - === Scheduler loop running at 2025-09-01 11:33:10.208597 ===
+2025-09-01 11:33:21,293 - INFO - === Scheduler loop running at 2025-09-01 11:33:20.283673 ===
+2025-09-01 11:33:31,354 - INFO - === Scheduler loop running at 2025-09-01 11:33:30.353713 ===
+2025-09-01 11:33:41,406 - INFO - === Scheduler loop running at 2025-09-01 11:33:40.406135 ===
+2025-09-01 11:33:51,466 - INFO - === Scheduler loop running at 2025-09-01 11:33:50.466212 ===
+2025-09-01 11:34:01,486 - INFO - === Scheduler loop running at 2025-09-01 11:34:00.485658 ===
+2025-09-01 11:34:11,557 - INFO - === Scheduler loop running at 2025-09-01 11:34:10.556836 ===
+2025-09-01 11:34:21,635 - INFO - === Scheduler loop running at 2025-09-01 11:34:20.633835 ===
+2025-09-01 11:34:31,697 - INFO - === Scheduler loop running at 2025-09-01 11:34:30.696470 ===
+2025-09-01 11:34:41,712 - INFO - === Scheduler loop running at 2025-09-01 11:34:40.711043 ===
+2025-09-01 11:34:51,760 - INFO - === Scheduler loop running at 2025-09-01 11:34:50.759676 ===
+2025-09-01 11:35:01,807 - INFO - === Scheduler loop running at 2025-09-01 11:35:00.807113 ===
+2025-09-01 11:35:11,842 - INFO - === Scheduler loop running at 2025-09-01 11:35:10.841906 ===
+2025-09-01 11:35:21,850 - INFO - === Scheduler loop running at 2025-09-01 11:35:20.848236 ===
+2025-09-01 11:35:25,858 - INFO - === TRIGGERING MA_Crossover_5min at 2025-09-01 11:35:25.858055 ===
+2025-09-01 11:35:25,858 - INFO - === MA_Crossover_5min: FUNCTION CALLED ===
+2025-09-01 11:35:25,860 - INFO - === MA_Crossover_5min: Checking candle closure for 5min timeframe ===
+2025-09-01 11:35:25,860 - INFO - *** MA_Crossover_5min: EXECUTING on 5-minute timeframe at 2025-09-01 11:35:25.860312 ***
+2025-09-01 11:35:25,883 - INFO - Trade logged: HOLD for XAUUSD
+2025-09-01 11:35:25,891 - INFO - MA_Crossover_5min - XAUUSD: HOLD - No crossover - BULLISH trend continues
+2025-09-01 11:35:25,907 - INFO - Trade logged: HOLD for EURUSD
+2025-09-01 11:35:25,908 - INFO - MA_Crossover_5min - EURUSD: HOLD - No crossover - BULLISH trend continues
+2025-09-01 11:35:25,935 - INFO - Trade logged: HOLD for GBPUSD
+2025-09-01 11:35:25,939 - INFO - MA_Crossover_5min - GBPUSD: HOLD - No crossover - BULLISH trend continues
+2025-09-01 11:35:25,941 - INFO - MA_Crossover_5min: Next execution scheduled for 2025-09-01 11:40:25.941417
+2025-09-01 11:35:31,946 - INFO - === Scheduler loop running at 2025-09-01 11:35:30.945720 ===
+2025-09-01 11:35:41,957 - INFO - === Scheduler loop running at 2025-09-01 11:35:40.957093 ===
+2025-09-01 11:35:51,967 - INFO - === Scheduler loop running at 2025-09-01 11:35:50.967061 ===
+2025-09-01 11:36:01,975 - INFO - === Scheduler loop running at 2025-09-01 11:36:00.975344 ===
+2025-09-01 11:36:11,985 - INFO - === Scheduler loop running at 2025-09-01 11:36:10.985076 ===
+2025-09-01 11:36:21,994 - INFO - === Scheduler loop running at 2025-09-01 11:36:20.993598 ===
+2025-09-01 11:36:31,007 - INFO - === Scheduler loop running at 2025-09-01 11:36:30.007180 ===
+2025-09-01 11:36:41,017 - INFO - === Scheduler loop running at 2025-09-01 11:36:40.016303 ===
+2025-09-01 11:36:51,027 - INFO - === Scheduler loop running at 2025-09-01 11:36:50.027111 ===
+2025-09-01 11:37:01,047 - INFO - === Scheduler loop running at 2025-09-01 11:37:00.045392 ===
+2025-09-01 11:37:11,075 - INFO - === Scheduler loop running at 2025-09-01 11:37:10.074517 ===
+2025-09-01 11:37:21,087 - INFO - === Scheduler loop running at 2025-09-01 11:37:20.086744 ===
+2025-09-01 11:37:31,137 - INFO - === Scheduler loop running at 2025-09-01 11:37:30.135944 ===
+2025-09-01 11:37:41,144 - INFO - === Scheduler loop running at 2025-09-01 11:37:40.143936 ===
+2025-09-01 11:37:51,230 - INFO - === Scheduler loop running at 2025-09-01 11:37:50.158702 ===
+2025-09-01 11:38:01,240 - INFO - === Scheduler loop running at 2025-09-01 11:38:00.239543 ===
+2025-09-01 11:38:11,277 - INFO - === Scheduler loop running at 2025-09-01 11:38:10.277236 ===
+2025-09-01 11:38:21,289 - INFO - === Scheduler loop running at 2025-09-01 11:38:20.288623 ===
+2025-09-01 11:38:31,299 - INFO - === Scheduler loop running at 2025-09-01 11:38:30.298918 ===
+2025-09-01 11:38:41,306 - INFO - === Scheduler loop running at 2025-09-01 11:38:40.306005 ===
+2025-09-01 11:38:51,319 - INFO - === Scheduler loop running at 2025-09-01 11:38:50.319319 ===
+2025-09-01 11:39:01,329 - INFO - === Scheduler loop running at 2025-09-01 11:39:00.327942 ===
+2025-09-01 11:39:11,358 - INFO - === Scheduler loop running at 2025-09-01 11:39:10.357695 ===
+2025-09-01 11:39:21,374 - INFO - === Scheduler loop running at 2025-09-01 11:39:20.373878 ===
+2025-09-01 11:39:31,388 - INFO - === Scheduler loop running at 2025-09-01 11:39:30.388402 ===
+2025-09-01 11:39:41,401 - INFO - === Scheduler loop running at 2025-09-01 11:39:40.398892 ===
+2025-09-01 11:39:51,417 - INFO - === Scheduler loop running at 2025-09-01 11:39:50.417083 ===
+2025-09-01 11:40:01,430 - INFO - === Scheduler loop running at 2025-09-01 11:40:00.429744 ===
+2025-09-01 11:40:11,449 - INFO - === Scheduler loop running at 2025-09-01 11:40:10.448688 ===
+2025-09-01 11:40:21,460 - INFO - === Scheduler loop running at 2025-09-01 11:40:20.458175 ===
+2025-09-01 11:40:26,471 - INFO - === TRIGGERING MA_Crossover_5min at 2025-09-01 11:40:26.471197 ===
+2025-09-01 11:40:26,473 - INFO - === MA_Crossover_5min: FUNCTION CALLED ===
+2025-09-01 11:40:26,484 - INFO - === MA_Crossover_5min: Checking candle closure for 5min timeframe ===
+2025-09-01 11:40:26,484 - INFO - *** MA_Crossover_5min: EXECUTING on 5-minute timeframe at 2025-09-01 11:40:26.484823 ***
+2025-09-01 11:40:26,520 - INFO - Trade logged: HOLD for XAUUSD
+2025-09-01 11:40:26,520 - INFO - MA_Crossover_5min - XAUUSD: HOLD - No crossover - BULLISH trend continues
+2025-09-01 11:40:26,551 - INFO - Trade logged: HOLD for EURUSD
+2025-09-01 11:40:26,551 - INFO - MA_Crossover_5min - EURUSD: HOLD - No crossover - BULLISH trend continues
+2025-09-01 11:40:26,585 - INFO - Trade logged: HOLD for GBPUSD
+2025-09-01 11:40:26,585 - INFO - MA_Crossover_5min - GBPUSD: HOLD - No crossover - BULLISH trend continues
+2025-09-01 11:40:26,585 - INFO - MA_Crossover_5min: Next execution scheduled for 2025-09-01 11:45:26.585918
+2025-09-01 11:40:31,594 - INFO - === Scheduler loop running at 2025-09-01 11:40:30.593700 ===
+2025-09-01 11:40:41,605 - INFO - === Scheduler loop running at 2025-09-01 11:40:40.604423 ===
+2025-09-01 11:40:51,620 - INFO - === Scheduler loop running at 2025-09-01 11:40:50.619770 ===
+2025-09-01 11:41:01,633 - INFO - === Scheduler loop running at 2025-09-01 11:41:00.633134 ===
+2025-09-01 11:41:11,649 - INFO - === Scheduler loop running at 2025-09-01 11:41:10.648412 ===
+2025-09-01 11:41:21,659 - INFO - === Scheduler loop running at 2025-09-01 11:41:20.658368 ===
+2025-09-01 11:41:31,673 - INFO - === Scheduler loop running at 2025-09-01 11:41:30.672962 ===
+2025-09-01 11:41:41,684 - INFO - === Scheduler loop running at 2025-09-01 11:41:40.684224 ===
+2025-09-01 11:41:51,714 - INFO - === Scheduler loop running at 2025-09-01 11:41:50.713343 ===
+2025-09-01 11:42:01,726 - INFO - === Scheduler loop running at 2025-09-01 11:42:00.726067 ===
+2025-09-01 11:42:11,741 - INFO - === Scheduler loop running at 2025-09-01 11:42:10.741419 ===
+2025-09-01 11:42:21,752 - INFO - === Scheduler loop running at 2025-09-01 11:42:20.751508 ===
+2025-09-01 11:42:31,768 - INFO - === Scheduler loop running at 2025-09-01 11:42:30.767837 ===
+2025-09-01 11:42:41,780 - INFO - === Scheduler loop running at 2025-09-01 11:42:40.780647 ===
+2025-09-01 11:42:51,787 - INFO - === Scheduler loop running at 2025-09-01 11:42:50.786736 ===
+2025-09-01 11:43:01,801 - INFO - === Scheduler loop running at 2025-09-01 11:43:00.799073 ===
+2025-09-01 11:43:11,821 - INFO - === Scheduler loop running at 2025-09-01 11:43:10.821278 ===
+2025-09-01 11:43:21,841 - INFO - === Scheduler loop running at 2025-09-01 11:43:20.839277 ===
+2025-09-01 11:43:31,869 - INFO - === Scheduler loop running at 2025-09-01 11:43:30.867329 ===
+2025-09-01 11:43:41,878 - INFO - === Scheduler loop running at 2025-09-01 11:43:40.878110 ===
+2025-09-01 11:43:51,900 - INFO - === Scheduler loop running at 2025-09-01 11:43:50.899801 ===
+2025-09-01 11:44:01,916 - INFO - === Scheduler loop running at 2025-09-01 11:44:00.916374 ===
+2025-09-01 11:44:11,937 - INFO - === Scheduler loop running at 2025-09-01 11:44:10.935024 ===
+2025-09-01 11:44:21,947 - INFO - === Scheduler loop running at 2025-09-01 11:44:20.947101 ===
+2025-09-01 11:44:31,965 - INFO - === Scheduler loop running at 2025-09-01 11:44:30.964869 ===
+2025-09-01 11:44:41,975 - INFO - === Scheduler loop running at 2025-09-01 11:44:40.974610 ===
+2025-09-01 11:44:51,997 - INFO - === Scheduler loop running at 2025-09-01 11:44:50.996811 ===
+2025-09-01 11:45:01,013 - INFO - === Scheduler loop running at 2025-09-01 11:45:00.011268 ===
+2025-09-01 11:45:11,030 - INFO - === Scheduler loop running at 2025-09-01 11:45:10.028964 ===
+2025-09-01 11:45:21,039 - INFO - === Scheduler loop running at 2025-09-01 11:45:20.038737 ===
+2025-09-01 11:45:26,051 - INFO - === TRIGGERING RSI_Divergence_15min at 2025-09-01 11:45:26.051249 ===
+2025-09-01 11:45:26,056 - INFO - === RSI_Divergence_15min: FUNCTION CALLED ===
+2025-09-01 11:45:26,068 - INFO - === RSI_Divergence_15min: Checking candle closure for 15min timeframe ===
+2025-09-01 11:45:26,072 - INFO - *** RSI_Divergence_15min: EXECUTING on 15-minute timeframe at 2025-09-01 11:45:26.072337 ***
+2025-09-01 11:45:26,115 - INFO - Trade logged: HOLD for XAUUSD
+2025-09-01 11:45:26,117 - INFO - RSI_Divergence_15min - XAUUSD: HOLD - No divergence or extreme RSI - Current RSI: 47.71
+2025-09-01 11:45:26,144 - INFO - Trade logged: SELL for EURUSD
+2025-09-01 11:45:26,152 - INFO - RSI_Divergence_15min - EURUSD: SELL - Overbought condition - RSI: 71.79
+2025-09-01 11:45:26,195 - INFO - Trade logged: HOLD for GBPUSD
+2025-09-01 11:45:26,195 - INFO - RSI_Divergence_15min - GBPUSD: HOLD - No divergence or extreme RSI - Current RSI: 48.63
+2025-09-01 11:45:26,195 - INFO - RSI_Divergence_15min: Next execution scheduled for 2025-09-01 12:00:26.195765
+2025-09-01 11:45:26,195 - INFO - === TRIGGERING Supertrend_RSI_15min at 2025-09-01 11:45:26.051249 ===
+2025-09-01 11:45:26,195 - INFO - === Supertrend_RSI_15min: FUNCTION CALLED ===
+2025-09-01 11:45:26,195 - INFO - === Supertrend_RSI_15min: Checking candle closure for 15min timeframe ===
+2025-09-01 11:45:26,204 - INFO - *** Supertrend_RSI_15min: EXECUTING on 15-minute timeframe at 2025-09-01 11:45:26.204940 ***
+2025-09-01 11:45:26,245 - ERROR - Supertrend_RSI_15min - XAUUSD Error: 'NoneType' object has no attribute 'get'
+2025-09-01 11:45:26,286 - ERROR - Supertrend_RSI_15min - EURUSD Error: 'NoneType' object has no attribute 'get'
+2025-09-01 11:45:26,286 - INFO - Supertrend_RSI_15min: Next execution scheduled for 2025-09-01 12:00:26.286898
+2025-09-01 11:45:27,289 - INFO - === TRIGGERING MA_Crossover_5min at 2025-09-01 11:45:27.289739 ===
+2025-09-01 11:45:27,291 - INFO - === MA_Crossover_5min: FUNCTION CALLED ===
+2025-09-01 11:45:27,302 - INFO - === MA_Crossover_5min: Checking candle closure for 5min timeframe ===
+2025-09-01 11:45:27,304 - INFO - *** MA_Crossover_5min: EXECUTING on 5-minute timeframe at 2025-09-01 11:45:27.304509 ***
+2025-09-01 11:45:27,328 - INFO - Trade logged: HOLD for XAUUSD
+2025-09-01 11:45:27,328 - INFO - MA_Crossover_5min - XAUUSD: HOLD - No crossover - BULLISH trend continues
+2025-09-01 11:45:27,362 - INFO - Trade logged: HOLD for EURUSD
+2025-09-01 11:45:27,362 - INFO - MA_Crossover_5min - EURUSD: HOLD - No crossover - BULLISH trend continues
+2025-09-01 11:45:27,394 - INFO - Trade logged: HOLD for GBPUSD
+2025-09-01 11:45:27,394 - INFO - MA_Crossover_5min - GBPUSD: HOLD - No crossover - BULLISH trend continues
+2025-09-01 11:45:27,394 - INFO - MA_Crossover_5min: Next execution scheduled for 2025-09-01 11:50:27.394342
+2025-09-01 11:45:31,414 - INFO - === Scheduler loop running at 2025-09-01 11:45:30.408455 ===
+2025-09-01 11:45:41,424 - INFO - === Scheduler loop running at 2025-09-01 11:45:40.423787 ===
+2025-09-01 11:45:51,447 - INFO - === Scheduler loop running at 2025-09-01 11:45:50.446293 ===
+2025-09-01 11:46:01,457 - INFO - === Scheduler loop running at 2025-09-01 11:46:00.456760 ===
+2025-09-01 11:46:11,471 - INFO - === Scheduler loop running at 2025-09-01 11:46:10.470833 ===
+2025-09-01 11:46:21,489 - INFO - === Scheduler loop running at 2025-09-01 11:46:20.488588 ===
+2025-09-01 11:46:31,509 - INFO - === Scheduler loop running at 2025-09-01 11:46:30.508524 ===
+2025-09-01 11:46:41,520 - INFO - === Scheduler loop running at 2025-09-01 11:46:40.519572 ===
+2025-09-01 11:46:51,540 - INFO - === Scheduler loop running at 2025-09-01 11:46:50.539754 ===
+2025-09-01 11:47:01,552 - INFO - === Scheduler loop running at 2025-09-01 11:47:00.551500 ===
+2025-09-01 11:47:11,578 - INFO - === Scheduler loop running at 2025-09-01 11:47:10.578066 ===
+2025-09-01 11:47:21,588 - INFO - === Scheduler loop running at 2025-09-01 11:47:20.587969 ===
+2025-09-01 11:47:31,610 - INFO - === Scheduler loop running at 2025-09-01 11:47:30.610177 ===
+2025-09-01 11:47:41,631 - INFO - === Scheduler loop running at 2025-09-01 11:47:40.631417 ===
+2025-09-01 11:47:51,642 - INFO - === Scheduler loop running at 2025-09-01 11:47:50.640931 ===
+2025-09-01 11:48:01,651 - INFO - === Scheduler loop running at 2025-09-01 11:48:00.650616 ===
+2025-09-01 11:48:11,661 - INFO - === Scheduler loop running at 2025-09-01 11:48:10.660695 ===
+2025-09-01 11:48:21,712 - INFO - === Scheduler loop running at 2025-09-01 11:48:20.712322 ===
+2025-09-01 11:48:31,813 - INFO - === Scheduler loop running at 2025-09-01 11:48:30.812666 ===
+2025-09-01 11:48:41,846 - INFO - === Scheduler loop running at 2025-09-01 11:48:40.846143 ===
+2025-09-01 11:48:51,928 - INFO - === Scheduler loop running at 2025-09-01 11:48:50.927690 ===
+2025-09-01 11:49:01,005 - INFO - === Scheduler loop running at 2025-09-01 11:49:00.005441 ===
+2025-09-01 11:49:11,046 - INFO - === Scheduler loop running at 2025-09-01 11:49:10.045430 ===
+2025-09-01 11:49:21,078 - INFO - === Scheduler loop running at 2025-09-01 11:49:20.077407 ===
+2025-09-01 11:49:31,089 - INFO - === Scheduler loop running at 2025-09-01 11:49:30.085369 ===
+2025-09-01 11:49:41,108 - INFO - === Scheduler loop running at 2025-09-01 11:49:40.107375 ===
+2025-09-01 11:49:51,169 - INFO - === Scheduler loop running at 2025-09-01 11:49:50.168902 ===
+2025-09-01 11:50:01,179 - INFO - === Scheduler loop running at 2025-09-01 11:50:00.178654 ===
+2025-09-01 11:50:11,190 - INFO - === Scheduler loop running at 2025-09-01 11:50:10.188091 ===
+2025-09-01 11:50:21,201 - INFO - === Scheduler loop running at 2025-09-01 11:50:20.201328 ===
+2025-09-01 11:50:28,214 - INFO - === TRIGGERING MA_Crossover_5min at 2025-09-01 11:50:28.214069 ===
+2025-09-01 11:50:28,215 - INFO - === MA_Crossover_5min: FUNCTION CALLED ===
+2025-09-01 11:50:28,216 - INFO - === MA_Crossover_5min: Checking candle closure for 5min timeframe ===
+2025-09-01 11:50:28,216 - INFO - *** MA_Crossover_5min: EXECUTING on 5-minute timeframe at 2025-09-01 11:50:28.216916 ***
+2025-09-01 11:50:28,237 - ERROR - Failed to log trade: Expecting value: line 1 column 1 (char 0)
+2025-09-01 11:50:28,237 - INFO - MA_Crossover_5min - XAUUSD: HOLD - No crossover - BULLISH trend continues
+2025-09-01 11:50:28,253 - ERROR - Failed to log trade: Expecting value: line 1 column 1 (char 0)
+2025-09-01 11:50:28,253 - INFO - MA_Crossover_5min - EURUSD: HOLD - No crossover - BULLISH trend continues
+2025-09-01 11:50:28,267 - ERROR - Failed to log trade: Expecting value: line 1 column 1 (char 0)
+2025-09-01 11:50:28,269 - INFO - MA_Crossover_5min - GBPUSD: HOLD - No crossover - BULLISH trend continues
+2025-09-01 11:50:28,270 - INFO - MA_Crossover_5min: Next execution scheduled for 2025-09-01 11:55:28.270632
+2025-09-01 11:50:31,272 - INFO - === Scheduler loop running at 2025-09-01 11:50:30.272079 ===
+2025-09-01 11:50:41,300 - INFO - === Scheduler loop running at 2025-09-01 11:50:40.300507 ===
+2025-09-01 11:50:51,312 - INFO - === Scheduler loop running at 2025-09-01 11:50:50.311713 ===
+2025-09-01 11:51:01,320 - INFO - === Scheduler loop running at 2025-09-01 11:51:00.320120 ===
+2025-09-01 11:51:11,394 - INFO - === Scheduler loop running at 2025-09-01 11:51:10.394264 ===
+2025-09-01 11:51:21,402 - INFO - === Scheduler loop running at 2025-09-01 11:51:20.399914 ===
+2025-09-01 11:51:31,413 - INFO - === Scheduler loop running at 2025-09-01 11:51:30.410752 ===
+2025-09-01 11:51:41,425 - INFO - === Scheduler loop running at 2025-09-01 11:51:40.424984 ===

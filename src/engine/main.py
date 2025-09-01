@@ -183,11 +183,9 @@ class MultiTimeframeScheduler:
                         trade_data['rsi_value'] = result['rsi_value']
                     
                     # Log the trade data
-                    self.log_trade(trade_data)
-                    
                     if result["signal"] in ["BUY", "SELL"]:
+                        self.log_trade(trade_data)
                         logging.info(f"{strategy_name} - {symbol}: {result['signal']} - {result['reason']}")
-                        # Here you would add order execution logic
                     elif result["signal"] == "HOLD":
                         logging.info(f"{strategy_name} - {symbol}: {result['signal']} - {result['reason']}")
                     else:
@@ -285,20 +283,20 @@ def main():
     
     # Add strategies with different timeframes
     # Strategy 1: Moving Average Crossover - 5 minutes
-    # scheduler.add_strategy(
-    #     "MA_Crossover_5min",
-    #     moving_average_crossover_strategy,
-    #     ["XAUUSD", "EURUSD", "GBPUSD"],
-    #     5
-    # )
+    scheduler.add_strategy(
+        "MA_Crossover_5min",
+        moving_average_crossover_strategy,
+        ["XAUUSD", "EURUSD", "GBPUSD"],
+        5
+    )
     
     # # Strategy 2: RSI Divergence - 15 minutes
-    # scheduler.add_strategy(
-    #     "RSI_Divergence_15min",
-    #     rsi_divergence_strategy,
-    #     ["XAUUSD", "EURUSD", "GBPUSD"],
-    #     15
-    # )
+    scheduler.add_strategy(
+        "RSI_Divergence_15min",
+        rsi_divergence_strategy,
+        ["XAUUSD", "EURUSD", "GBPUSD"],
+        15
+    )
     
     # Strategy 4: Supertrend + RSI - 15 minutes
     scheduler.add_strategy(
